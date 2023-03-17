@@ -1,0 +1,21 @@
+@media (max-width: 860px) {
+  main {
+    margin-top: 6rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sedans {
+    border-radius: 0.625rem 0.625rem 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 0.625rem 10px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 16px;
+    width: 17.5rem;
+  }
+}

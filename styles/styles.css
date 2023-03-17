@@ -38,7 +38,7 @@ section img {
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
-  border-radius: 10px 0 0 10px;
+  border-radius: 0.625rem 0 0 0.625rem;
 }
 
 .suvs {
@@ -47,7 +47,7 @@ section img {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 0.625rem 0.625rem 0;
 }
 
 .suvs button {
