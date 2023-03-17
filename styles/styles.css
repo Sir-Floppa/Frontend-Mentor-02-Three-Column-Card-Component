@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   background-color: hsl(0, 0%, 95%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -35,11 +36,10 @@ section img {
   width: 30%;
 }
 
-
 .sedans {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
-
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
@@ -47,6 +47,7 @@ section img {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
 
 .suvs button {
@@ -68,6 +69,7 @@ button {
   border-radius: 2rem;
   color: inherit;
   background-color: hsl(0, 0%, 95%);
+  margin-top: 6rem;
 }
 
 button:hover {
@@ -80,7 +82,8 @@ button:hover {
 h1 {
   text-transform: uppercase;
   font-family: 'Big Shoulders Display', cursive;
-  color: hsl(0, 0%, 95%)
+  color: hsl(0, 0%, 95%);
+  font-size: 36px;
 }
 
 p {
@@ -88,3 +91,10 @@ p {
   color: hsla(0, 0%, 100%, 0.75)
 }
 
+footer {
+  color: hsla(0, 0%, 0%, 0.753);
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
